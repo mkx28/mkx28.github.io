@@ -1,0 +1,45 @@
+/*  Copyright 2014 gokoururi
+    This work is free. You can redistribute it and/or modify it under the
+    terms of the Do What The Fuck You Want To Public License, Version 2,
+    as published by Sam Hocevar. See the COPYING file for more details. */
+
+body {
+    /*background-image : url(images/bg.jpg); */
+	background: #1D1F21;
+	background-size: 100% 100%;
+	}
+
+main {
+    background-color: transparent;
+    border-color: Gray;	
+}
+
+/* column standard colors */
+.column {
+    border-right-color: DimGray;
+}
+.column > a,
+.column > ul > li:before {
+    color: DimGray;
+}
+.column > a {
+    text-shadow: 0 0.5px #373B41;
+}
+.column > ul > li > a {
+    color: #81A2BE;
+}
+
+/* purple column highlight */
+.column_purple > ul > li > a:hover {
+    color: #344e65;
+}
+
+/* pink column highlight */
+.column_pink > ul > li > a:hover {
+    color: #344e65;
+}
+
+/* green column highlight */
+.column_green > ul > li > a:hover {
+    color: #344e65;
+}
